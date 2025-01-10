@@ -4,9 +4,35 @@
 }
 
 body{
-	background-color: tomato;
-}
+	background-color: gray;
+	
+	}
+	
+	
 
-h1 span{
-	font-size:32px;
-}
+	header,	main, footer {
+		margin: 0 auto;
+	}
+	
+	header {
+	background-color: tomato;
+	width: 90%;
+	}
+
+	
+	
+		main {
+			background-color: green;
+			width: 90%;
+
+		}
+	
+			footer {
+				background-color: blue;
+				width: 100%;
+			}
+
+
+
+
+			
