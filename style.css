@@ -1,28 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
+.open-sans-normal-font {
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+		"wdth" 100;
+}
+
+
+
+/* Reset code  */
 *{
 	margin: 0;
 	padding: 0;
 }
-
 body{
-	background-color: gray;
+	background-color: rgb(243, 240, 240);
 	
 	}
 	
-	
-
 	header,	main, footer {
 		margin: 0 auto;
 	}
 	
 	header {
-	background-color: tomato;
+	/* background-color: tomato; */
 	width: 90%;
 	}
 
-	
-	
 		main {
-			background-color: green;
+			/* background-color: green; */
 			width: 90%;
 
 		}
@@ -32,7 +44,185 @@ body{
 				width: 100%;
 			}
 
+/* Shared code Start*/
+.section-default {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+	/* padding: 5px; */
+}
 
 
 
-			
+.btn {
+	padding: 8px;
+	border-radius: 5px;
+	border: none;
+}
+
+/* Shared code End*/
+
+/* HEADER Start */
+/* --------NAV--------------------------- */
+.hometab {
+	color: black;
+	font-size: 32px;
+	font-weight: 800;
+}
+
+nav {
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+nav li {
+	list-style: none;
+
+}
+
+nav li a {
+	text-decoration: none;
+}
+
+nav li button {
+	border-radius: 8px;
+	padding: 15px 30px;
+	font-size: 18px;
+	font-weight: 600;
+	color: green;
+	border: #006A50 1px solid;
+}
+
+.banner {
+	padding: 55px;
+	background-color: #C6E4D6;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.banner-col p {
+	font-weight: 600;
+	font-size: 24px;
+	color: #0E0E0E;
+}
+
+.btn-explore {
+	background-color: #006A50;
+	color: #FFFFFF;
+	padding: 17px 34px;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+/* HEADER End */
+
+/* MAIN Start */
+/* ----------pillars start--------------- */
+.pillars h1 {
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.pillar-container {
+	margin: 20px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card-item {
+	background-color: #fff;
+	border-radius: 16px;
+	padding: 24px;
+	width: 20%;
+	height: 100%;
+	flex-wrap: wrap;
+	transition: .4s;
+	line-height: 1.6;
+}
+
+.card-item:hover {
+	transform: scale(1.1);
+}
+
+/* ----------pillars END--------------- */
+
+/* ----------Vision start--------------- */
+.vision h1 {
+	font-size: 40px;
+	font-weight: 800;
+}
+
+
+.vision p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #0E0E0E;
+}
+
+.vision-container {
+	margin: 20px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.vision-card-item {
+	background-color: #fff;
+	border-radius: 16px;
+	padding: 24px;
+	width: 30%;
+	height: 100%;
+	flex-wrap: wrap;
+	transition: .4s;
+	line-height: 1.6;
+}
+
+.vision-card-item:hover {
+	transform: scale(1.1);
+}
+
+.digital{
+	background-color: rgb(84,144,245, .20);
+}
+
+.green{
+	background-color: #C6E4D6;
+	
+}
+
+.modern{
+	background-color: #F7EBCF;
+}
+.btn-digital{
+	background-color: #5490F5;
+	color: #fff;
+}
+
+.btn-green{
+	background-color: #09A15C;
+	color: #fff;
+}
+
+.btn-modern{
+	background-color: #FFC239;
+	color: #fff;
+}
+/* ----------Vision END--------------- */
+
+
+/* MAIN End */
+
+/* Footer Start */
+/* Footer End */
