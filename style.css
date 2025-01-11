@@ -187,6 +187,8 @@ nav li button {
 	flex-wrap: wrap;
 	transition: .4s;
 	line-height: 1.6;
+max-width: 100%;
+	height: auto;
 }
 
 .vision-card-item:hover {
@@ -221,6 +223,22 @@ nav li button {
 }
 /* ----------Vision END--------------- */
 
+/* quote START  */
+.quote {
+	background-color: #fff;
+	padding: 24px 48px;
+	border-radius: 16px;
+	background-image: url(assets/quote-bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.quote p {
+	font-size: 16px;
+	text-align: justify;
+}
+
+/* quote END  */
 
 /* MAIN End */
 
