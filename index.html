@@ -67,22 +67,30 @@
 			</p>
 			<div class="vision-container">
 				<div class="vision-card-item digital">
-					<img src="assets/card-icon.png" alt="">
+					<img src="assets/digital-icon.png" alt="">
 					<h3>Digital Transformation</h3>
 					<p>Creating a nationwide digital ecosystem to enhance connectivity and access to services for all citizens.</p>
-					<button class="btn btn-digital">Lern More</button>
+					<button class="btn btn-digital"><a class="btn-link"
+							href="https://enterprisersproject.com/what-is-digital-transformation" target="_blank">Learn More</a></button>
 				</div>
+
+
 				<div class="vision-card-item green">
-					<img src="assets/card-icon.png" alt="">
+					<img src="assets/green-eng.png" alt="">
 					<h3>Green Energy</h3>
 					<p>Investments in solar and wind energy to ensure a sustainable and eco-friendly future.</p>
-					<button class="btn btn-green">Lern More</button>
+					<button class="btn btn-green"><a class="btn-link"
+							href="https://www.inspirecleanenergy.com/blog/clean-energy-101/what-is-green-energy" target="_blank">Learn
+							More</a></button>
 				</div>
+
 				<div class="vision-card-item modern">
-					<img src="assets/card-icon.png" alt="">
+					<img src="assets/modern-infra.png" alt="">
 					<h3>Modern Infrastructure</h3>
 					<p>Building state-of-the-art infrastructure to support economic growth and global competitiveness.</p>
-					<button class="btn btn-modern">Lern More</button>
+					<button class="btn btn-modern"><a class="btn-link" href="https://en.wikipedia.org/wiki/Infrastructure"
+							target="_blank">Learn
+							More</a></button>
 				</div>
 				
 			</div>
@@ -125,7 +133,16 @@
 					</thead>
 					<tr>
 						<td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
-						<td>
+						<td class="drop">
+							<select name="" id="">
+								<option value="yes">Yes, I Agree</option>
+								<option value="no">Not Agree</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Is Bangladesh a beautiful country?</td>
+						<td class="drop">
 							<select name="" id="">
 								<option value="yes">Yes, I Agree</option>
 								<option value="no">Not Agree</option>
@@ -134,16 +151,7 @@
 					</tr>
 					<tr>
 						<td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
-						<td>
-							<select name="" id="">
-								<option value="yes">Yes, I Agree</option>
-								<option value="no">Not Agree</option>
-							</select>
-						</td>
-					</tr>
-					<tr>
-						<td>Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
-						<td>
+						<td class="drop">
 							<select name="opinion-drop" id="opinion-drop">
 								<option value="yes">Yes, I Agree</option>
 								<option value="no">Not Agree</option>
@@ -256,8 +264,8 @@
 		</div>
 	</div>
 
-	<input type="number" placeholder="Other Amount (Taka)">
-	<button class="btn btn-primary">Done Now</button>
+	<input type="number" placeholder="Other Amount (Taka)" min="0" max="50000">
+	<button class="btn btn-primary">Donate Now</button>
 </section>
 
 <section class="subscribe section-default">
