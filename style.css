@@ -54,12 +54,30 @@ body{
 	/* padding: 5px; */
 }
 
+.section-caption {
+	line-height: 1.6;
+	font-size: 40px;
+	font-weight: 800;
+	
+}
 
+.section-sub-caption {
+	font-size: 16px;
+	text-align: justify;
+	color: #0E0E0E;
+	margin-bottom: 20px;
+}
 
 .btn {
 	padding: 8px;
 	border-radius: 5px;
 	border: none;
+	cursor: pointer;
+	}
+	
+	.btn:hover {
+		background-color: tomato;
+		color: white;
 }
 
 .btn-primary {
@@ -296,6 +314,7 @@ td select {
 	font-weight: 500;
 }
 /* opinion END  */
+
 /* Recent News START  */
 .recent {}
 
@@ -336,23 +355,43 @@ td select {
 }
 
 .card-img {
-	/* border: 1px solid black; */
+	display: flex;
+		align-items: center;
+		justify-content: center;
 }
 
+.news-caption {
+	/* background-color: tomato; */
+	line-height: 1.6;
+}
 .card-news {
 	padding: 20px;
 	/* border: 1px solid black; */
 	line-height: 1.5rem;
-
 }
 
+.news {
+	line-height: 2;
+	
+}
+.card-img img {
+	width: 400px;
+	height: 300px;
+	border-radius: 24px;
+
+}
 .card-news img {
 	margin: 20px 0px;
 }
 
-.btn-news {
-	
+/* .btn-more {
+	text-decoration: none;
+	cursor: pointer;
+}
 
+*/ .btn-more a {
+	text-decoration: none;
+	color: white;
 }
 
 .card-news p {
@@ -385,9 +424,10 @@ td select {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-around;
-	gap: 20px;
+	justify-content: space-between;
+		gap: 30px;
 	margin: 20px 0px;
+
 }
 
 .donate-card {
@@ -401,13 +441,15 @@ td select {
 	border-radius: 16px;
 	padding: 20px;
 	font-size: x-large;
+	cursor: pointer;
 }
+
 
 .selected-card {
 	background-color: #C6E4D6;
 }
 
-.donate input[type=text] {
+.donate input[type=number] {
 	padding: 15px;
 	width: 80%;
 	text-align: center;
@@ -417,6 +459,28 @@ td select {
 }
 
 /* donate section START  */
+/* SUBSCRIBE Section START */
+.subscribe {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #C6E4D6;
+	border-radius: 24px;
+	padding: 100px 80px;
+}
+
+.subscribe input[type=email] {
+	padding: 15px;
+	width: 500px;
+	text-align: center;
+	font-size: 20px;
+	color: #0E0E0E;
+	border: none;
+	margin-bottom: 20px;
+}
+
+/* SUBSCRIBE Section END */
 /* MAIN End */
 
 /* Footer Start */
