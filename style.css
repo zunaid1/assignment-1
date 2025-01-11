@@ -20,7 +20,7 @@
 	padding: 0;
 }
 body{
-	background-color: rgb(245, 244, 244);
+	background-color: rgb(237, 234, 234);
 	
 	}
 	
@@ -287,8 +287,81 @@ td select {
 	font-size: 16px;
 	font-weight: 500;
 }
-
 /* opinion END  */
+/* Recent News START  */
+.recent {}
+
+.recent h1 {
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.recent-sub-caption {
+	font-size: 16px;
+	text-align: justify;
+	color: #0E0E0E;
+	margin-bottom: 20px;
+}
+
+.card-container {
+	background-color: transparent;
+	padding: 24px 48px;
+	border-radius: 16px;
+
+
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	flex-direction: column;
+
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	/* border: 1px solid tomato; */
+	padding: 48px;
+	border-radius: 24px;
+	background-color: #fff;
+	/* border: 1px solid black; */
+
+}
+
+.card-img {
+	/* border: 1px solid black; */
+}
+
+.card-news {
+	padding: 20px;
+	/* border: 1px solid black; */
+	line-height: 1.5rem;
+
+}
+
+.card-news img {
+	margin: 20px 0px;
+}
+
+.btn-news {
+	background-color: #006A50;
+	color: #fff;
+	padding: 15px 10px;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+
+}
+
+.card-news p {
+	font-size: 16px;
+	text-align: justify;
+}
+
+.news-date {
+	margin: 15px 0px;
+}
+
+/* Recent News END  */
 /* MAIN End */
 
 /* Footer Start */
