@@ -480,6 +480,21 @@ td select {
 	border: none;
 	margin-bottom: 20px;
 }
+.subscribe-input {
+	/* display: flex;
+	align-items: center;
+	justify-content: space-around; */
+
+}
+
+.sub-email {
+	/* position: relative; */
+}
+
+.btn-sub {
+	/* position: absolute;
+	right: 0; */
+}
 /* SUBSCRIBE Section END */
 /* MAIN End */
 
@@ -506,7 +521,7 @@ td select {
 	align-items: center;
 	justify-content: space-around;
 	gap: 10px;
-	background-color: tomato;
+	/* background-color: tomato; */
 }
 
 .social-icons img {
