@@ -20,7 +20,7 @@
 	padding: 0;
 }
 body{
-	background-color: rgb(243, 240, 240);
+	background-color: rgb(245, 244, 244);
 	
 	}
 	
@@ -240,6 +240,55 @@ max-width: 100%;
 
 /* quote END  */
 
+/* opinion START  */
+.opinion h1 {
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.opinion-question {
+	background-color: #fff;
+	padding: 24px 48px;
+	border-radius: 16px;
+}
+
+.opinion table {
+	border: .5px solid black;
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.opinion table thead {
+	background-color: #C6E4D6;
+	text-align: left;
+	padding: 24px;
+	height: 72px;
+}
+
+.opinion table tr {
+	text-align: left;
+	padding: 24px;
+	height: 72px;
+}
+
+.opinion table td {
+	border: 1px solid black;
+	padding: 5px 10px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+td select {
+	width: 90%;
+	padding: 10px;
+	background-color: #C6E4D6;
+	margin: 0 auto;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+/* opinion END  */
 /* MAIN End */
 
 /* Footer Start */
