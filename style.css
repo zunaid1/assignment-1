@@ -454,6 +454,7 @@ td select {
 	justify-content: space-between;
 		gap: 30px;
 	margin: 20px 0px;
+	/* border: #006A50 2px solid; */
 
 }
 
@@ -470,7 +471,10 @@ td select {
 	font-size: x-large;
 	cursor: pointer;
 }
-
+/* .donate-card:hover {
+	background-color: tomato;
+	color: white;
+} */
 
 .selected-card {
 	background-color: #C6E4D6;
@@ -485,7 +489,7 @@ td select {
 	border: none;
 }
 
-/* donate section START  */
+/* donate section END  */
 /* SUBSCRIBE Section START */
 .subscribe {
 	display: flex;
